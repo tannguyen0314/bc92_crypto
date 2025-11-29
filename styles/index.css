@@ -1,0 +1,28 @@
+body {
+    background-color: #151937;
+    color: #fff;
+}
+.text-gradient {
+    background: linear-gradient(to right, red, blue);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.button-trading{
+    background: linear-gradient(to right, rgb(232, 117, 136),lightpink);
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 2rem;
+}
+.lists > div {
+    background-color: rgb(183, 184, 189);
+    border-radius: 1rem;
+    border: none;
+}
+.platform__content ul li button[aria-selected="true"]{
+    border-color: rebeccapurple;
+    color: rebeccapurple;
+}
+.platform__content ul li button[aria-selected="false"]{
+    border-color: white;
+    color: gray;
+}
